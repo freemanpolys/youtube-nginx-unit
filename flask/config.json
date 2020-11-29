@@ -1,0 +1,18 @@
+{
+    "listeners": {
+        "*:1150": {
+            "pass": "applications/flask"
+        }
+    },
+
+    "applications": {
+        "flask": {
+            "type": "python 3.x",
+            "user": "admin",
+            "group": "admin",
+            "path": "/Users/admin/Downloads/youtube-nginx-unit/flask/",
+            "home": "/Users/admin/Downloads/youtube-nginx-unit/flask/venv/",
+            "module": "wsgi"
+        }
+    }
+}

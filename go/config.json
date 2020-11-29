@@ -1,0 +1,16 @@
+{
+    "listeners": {
+        "*:8080": {
+            "pass": "applications/go"
+        }
+    },
+    "applications": {
+        "go": {
+            "type": "external",
+            "working_directory": "/Users/admin/Downloads/youtube-nginx-unit/go",
+            "executable": "server",
+            "user": "admin",
+            "group": "admin"
+        }
+    }
+    }
